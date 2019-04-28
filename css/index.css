@@ -1,0 +1,97 @@
+header {
+	position: fixed;
+	width: 100%;
+	padding: 10px 0 10px 0;
+	background: #fff;
+	border-bottom: solid 1px #999;
+}
+
+.header-left {
+	float: left;
+}
+
+.header-right {
+	float: right;
+	margin: 15px 0 15px 0;
+}
+
+.logo h1 {
+	display: inline-block;
+}
+
+.logo span {
+	color: #666;
+}
+
+.header-right div {
+	float: left;
+	font-size: .8em;
+	margin-right: 20px;
+}
+
+.title{
+	text-align: center;
+	padding: 30px 0 20px 0;
+}
+.title h1{
+	font-size: 42px;
+}
+
+.title h2{
+	font-size: 34px;
+	font-weight: normal;
+	color: #999;
+}
+.line{
+	margin: 20px 0 0 0;
+	height: 40px;
+	line-height: 40px;
+	overflow: hidden;
+	padding-left: 10px;
+	text-shadow: 1px 1px 0 hsla(0,0%,100%,.45);
+}
+.line-bule{
+	background-color: #d6efff;
+    border-left:solid 4px #3498db;
+    color: #2a7da9;
+}
+.line-green{
+	background-color: #eaf6d0;
+    border-left:solid 4px #80bd01;
+    color: #6e9c0f;
+}
+.line-red{
+	background-color: #fff6dd;
+    border-left:solid 4px #fdbc40;
+    color: #ff742a;
+}
+.school{
+	text-align: center;
+	height: 200px;
+}
+.left-box{
+	border-right: 2px dashed #ccc;
+}
+
+.left-box,.right-box,.left-text,.right-text{
+	width: 50%;
+	box-sizing: border-box;
+}
+
+.left-text,.left-box{
+	float: left;
+}
+.right-text,.right-box{
+	float: right;
+}
+.left-text p,.right-text p{
+	line-height: 150%;
+	text-align: left;
+}
+.left-text img,.right-text img{
+	width: 70%;
+}
+.work{
+	width: 100%;
+	border-left: 4px solid #ccc;
+}
